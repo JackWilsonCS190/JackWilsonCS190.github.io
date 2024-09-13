@@ -1,0 +1,39 @@
+/*element selector
+p{ (anywhere w paragraphs)
+
+id selector
+#para1 { (id = para1 whihc is one thing)
+to set id: <p id="para1">
+
+class selector
+.center 
+to set class: <h2 class="center">
+
+
+class and id is possible, multiple classes are space delimited
+
+priority = UNKNOWN
+*/
+
+p {
+    text-align: center; color: red;
+}
+
+#para1 {
+    text-align: right; color: blue;
+}
+
+.center {
+    text-align: center; color: green;
+}
+
+body {
+    background-color: #aeaeae;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:black;
+    background-color: pink;
+    text-align: center;
+}
