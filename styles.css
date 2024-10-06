@@ -48,13 +48,18 @@ h1 {
 }
 
 .project img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .project h3 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+.project p {
+    text-align: center;
+    margin: 35px;
 }
