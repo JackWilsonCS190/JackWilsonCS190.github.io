@@ -63,3 +63,31 @@ h1 {
     text-align: center;
     margin: 35px;
 }
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
+.about p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
+.skills p{
+    color: black;
+    text-align: left;
+    margin: 35px;
+}
